@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#displays contents of the current directory in list format
+#printing starts after the hyphen(-)
+for item in *;
+do
+	echo "$i" | cut -f2 -d'-'
+
+done
