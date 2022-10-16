@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Displays lines with bash
+
+pgrep -l "bash"
