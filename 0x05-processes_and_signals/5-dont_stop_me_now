@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Displays "to infinity and beyond" indefinetly, uses kill() 
-kill_this=$(pgrep -a "bash" | grep "4-to_infinity_and_beyond" |cut -d' ' f1)
+kill_this=$(pgrep -a "bash" | grep "4-to_infinity_and_beyond" |cut -d' ' -f1)
 kill "kill_this"
