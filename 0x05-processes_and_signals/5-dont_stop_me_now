@@ -3,7 +3,6 @@
 
 while [ $i ]
 do
-	echo "To infinity and beyond"
 	kill_this=$(pgrep -a "bash" | grep "4-to_infinity_and_beyond" |cut -d' ' f1)
 	kill "kill_this"
 done
