@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#kills specified process
+kill_this=$(pgrep -f "./7-highlander")
+kill -s SIGKILL "$kill_this"
